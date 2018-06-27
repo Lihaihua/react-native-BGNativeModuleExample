@@ -7,10 +7,10 @@
 //
 
 #import "BGNativeModuleExample.h"
-
+#import "RCTLog.h"
 @implementation BGNativeModuleExample
 RCT_EXPORT_MODULE();
-RCT_REMAP_METHOD(testPrint){
+RCT_EXPORT_METHOD(testPrint){
     RCTLogInfo(@"name");
 }
 @end

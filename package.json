@@ -1,6 +1,6 @@
 {
-  "name": "react-native-nativemodule-example-yunxi",
-  "version": "1.0.2",
+  "name": "react-native-yunxi-lib",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
