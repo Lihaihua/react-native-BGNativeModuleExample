@@ -1,10 +1,18 @@
-import React, { NativeModules } from 'react-native';
+//import React, { NativeModules } from 'react-native';
 
-//module.exports = NativeModules.BGNativeModuleExample;
-const BGNativeModuleExample = NativeModules.BGNativeModuleExample;
 
-function testPrint(){
-	return BGNativeModuleExample.testPrint();
-} 
+//const BGNativeModuleExample = NativeModules.BGNativeModuleExample;
 
-export {testPrint}
+//function testPrint(){
+//	return BGNativeModuleExample.testPrint();
+//} 
+
+//export {testPrint}
+
+import TestPrint from './entry/TestPrint';
+
+export {
+    TestPrint
+}
+
+export default TestPrint;

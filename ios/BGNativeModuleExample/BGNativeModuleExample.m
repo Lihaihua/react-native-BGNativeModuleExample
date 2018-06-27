@@ -10,7 +10,7 @@
 
 @implementation BGNativeModuleExample
 RCT_EXPORT_MODULE();
-RCT_REMAP_METHOD(testPrint, name:(NSString *)name){
-    RCTLogInfo(@"%@",name);
+RCT_REMAP_METHOD(testPrint){
+    RCTLogInfo(@"name");
 }
 @end
